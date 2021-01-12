@@ -1,0 +1,61 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1400px;
+    }
+}
+
+.price-decoration {
+    font-size: 18px;
+}
+
+.price-decoration-discount {
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.slick-prev:before, .slick-next:before {
+    position: absolute;
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: #299117;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.images-brand-block {
+    position: relative;
+    height: 130px;
+}
+
+.images-brand {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+}
+
+.table-td-images > img {
+    width: 150px;
+}
+
+.table-td-text {
+    padding-top: 60px;
+}
+
+.table-td-product-links {
+    width: 420px;
+}
+
+.slick-prev {
+    left: -60px;
+}
+
+.footer-theme {
+    background-color: rgb(250, 250, 250);
+    min-height: 250px;
+}
